@@ -1,12 +1,12 @@
-var dollarKurs = 11000.34;
-var yevroKurs = 12354.03;
-var bilet = dollarKurs * 500;
-var mexmonxona = dollarKurs * 250;
-var muzey = yevroKurs * 120;
-var umumiyXarajatlar = bilet + mexmonxona + muzey;
+let dollarKurs = 11000.34;
+let yevroKurs = 12354.03;
+let bilet = dollarKurs * 500;
+let mexmonxona = dollarKurs * 250;
+let muzey = yevroKurs * 120;
+let umumiyXarajatlar = bilet + mexmonxona + muzey;
 
-var userName = prompt("Salom ismingizni kiriting");
-var puli = prompt(userName + " harajatlar uchun necha pul mo'ljalladingiz? ");
+let userName = prompt("Salom ismingizni kiriting");
+let puli = prompt(userName + " harajatlar uchun necha pul mo'ljalladingiz? ");
 
 if (puli >= umumiyXarajatlar) {
   alert("Oq yo'l " + userName);
